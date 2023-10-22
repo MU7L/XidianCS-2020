@@ -1,0 +1,11 @@
+*.exe
+*.iml
+*.log
+
+**/dist
+node_modules
+**/target
+
+**/.idea
+**/.vscode
+**/.ipynb_checkpoints

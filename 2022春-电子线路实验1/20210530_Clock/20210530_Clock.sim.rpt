@@ -1,0 +1,264 @@
+Simulator report for 20210530_Clock
+Sun May 30 18:24:48 2021
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 92 nodes     ;
+; Simulation Coverage         ;      89.13 % ;
+; Total Number of Transitions ; 68849        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C5T144C8  ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                           ;
++--------------------------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                                     ; Setting         ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------+---------------+
+; Simulation mode                                                                            ; Timing          ; Timing        ;
+; Start time                                                                                 ; 0 ns            ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF            ;               ;
+; Vector input source                                                                        ; HMS_Counter.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On              ; On            ;
+; Check outputs                                                                              ; Off             ; Off           ;
+; Report simulation coverage                                                                 ; On              ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On              ; On            ;
+; Display missing 1-value coverage report                                                    ; On              ; On            ;
+; Display missing 0-value coverage report                                                    ; On              ; On            ;
+; Detect setup and hold time violations                                                      ; Off             ; Off           ;
+; Detect glitches                                                                            ; Off             ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off             ; Off           ;
+; Generate Signal Activity File                                                              ; Off             ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off             ; Off           ;
+; Group bus channels in simulation results                                                   ; Off             ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On              ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE      ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off             ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off             ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto            ; Auto          ;
++--------------------------------------------------------------------------------------------+-----------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      89.13 % ;
+; Total nodes checked                                 ; 92           ;
+; Total output ports checked                          ; 92           ;
+; Total output ports with complete 1/0-value coverage ; 82           ;
+; Total output ports with no 1/0-value coverage       ; 10           ;
+; Total output ports with no 1-value coverage         ; 10           ;
+; Total output ports with no 0-value coverage         ; 10           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                              ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; Node Name                                         ; Output Port Name                                  ; Output Port Type ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|6    ; |20210530_Clock|HMS_Counter:inst|74160:inst5|6    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|7    ; |20210530_Clock|HMS_Counter:inst|74160:inst5|7    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst5|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|9    ; |20210530_Clock|HMS_Counter:inst|74160:inst5|9    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|6    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|6    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|7    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|7    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|6    ; |20210530_Clock|HMS_Counter:inst|74160:inst6|6    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|7    ; |20210530_Clock|HMS_Counter:inst|74160:inst6|7    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst6|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|9    ; |20210530_Clock|HMS_Counter:inst|74160:inst6|9    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|6    ; |20210530_Clock|HMS_Counter:inst|74160:inst4|6    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|7    ; |20210530_Clock|HMS_Counter:inst|74160:inst4|7    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst4|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|6    ; |20210530_Clock|HMS_Counter:inst|74160:inst2|6    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|7    ; |20210530_Clock|HMS_Counter:inst|74160:inst2|7    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst2|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|9    ; |20210530_Clock|HMS_Counter:inst|74160:inst2|9    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|6     ; |20210530_Clock|HMS_Counter:inst|74160:inst|6     ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|7     ; |20210530_Clock|HMS_Counter:inst|74160:inst|7     ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|8     ; |20210530_Clock|HMS_Counter:inst|74160:inst|8     ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|inst15~0         ; |20210530_Clock|HMS_Counter:inst|inst15~0         ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|inst9~0          ; |20210530_Clock|HMS_Counter:inst|inst9~0          ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|inst15           ; |20210530_Clock|HMS_Counter:inst|inst15           ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|11   ; |20210530_Clock|HMS_Counter:inst|74160:inst5|11   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|12   ; |20210530_Clock|HMS_Counter:inst|74160:inst5|12   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|13~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst5|13~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|13~1 ; |20210530_Clock|HMS_Counter:inst|74160:inst5|13~1 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|47~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|47~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|10   ; |20210530_Clock|HMS_Counter:inst|74160:inst3|10   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|50~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|50~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|50~1 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|50~1 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|11   ; |20210530_Clock|HMS_Counter:inst|74160:inst3|11   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|12   ; |20210530_Clock|HMS_Counter:inst|74160:inst3|12   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~1 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~1 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|inst7            ; |20210530_Clock|HMS_Counter:inst|inst7            ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|10   ; |20210530_Clock|HMS_Counter:inst|74160:inst6|10   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|inst10           ; |20210530_Clock|HMS_Counter:inst|inst10           ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|25~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst6|25~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|11   ; |20210530_Clock|HMS_Counter:inst|74160:inst6|11   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|12   ; |20210530_Clock|HMS_Counter:inst|74160:inst6|12   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|9~0  ; |20210530_Clock|HMS_Counter:inst|74160:inst6|9~0  ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|47~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst4|47~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst6|9~1  ; |20210530_Clock|HMS_Counter:inst|74160:inst6|9~1  ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|10   ; |20210530_Clock|HMS_Counter:inst|74160:inst4|10   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|25~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst4|25~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|25~1 ; |20210530_Clock|HMS_Counter:inst|74160:inst4|25~1 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|12   ; |20210530_Clock|HMS_Counter:inst|74160:inst4|12   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|11   ; |20210530_Clock|HMS_Counter:inst|74160:inst2|11   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|12   ; |20210530_Clock|HMS_Counter:inst|74160:inst2|12   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|30~0 ; |20210530_Clock|HMS_Counter:inst|74160:inst2|30~0 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|13   ; |20210530_Clock|HMS_Counter:inst|74160:inst2|13   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|6~0   ; |20210530_Clock|HMS_Counter:inst|74160:inst|6~0   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|inst7~0          ; |20210530_Clock|HMS_Counter:inst|inst7~0          ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|11    ; |20210530_Clock|HMS_Counter:inst|74160:inst|11    ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst|12~0  ; |20210530_Clock|HMS_Counter:inst|74160:inst|12~0  ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|10   ; |20210530_Clock|HMS_Counter:inst|74160:inst5|10   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst5|50~2 ; |20210530_Clock|HMS_Counter:inst|74160:inst5|50~2 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst4|11   ; |20210530_Clock|HMS_Counter:inst|74160:inst4|11   ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst2|6~0  ; |20210530_Clock|HMS_Counter:inst|74160:inst2|6~0  ; combout          ;
+; |20210530_Clock|h0[0]                             ; |20210530_Clock|h0[0]                             ; padio            ;
+; |20210530_Clock|h0[1]                             ; |20210530_Clock|h0[1]                             ; padio            ;
+; |20210530_Clock|h0[2]                             ; |20210530_Clock|h0[2]                             ; padio            ;
+; |20210530_Clock|h0[3]                             ; |20210530_Clock|h0[3]                             ; padio            ;
+; |20210530_Clock|h1[0]                             ; |20210530_Clock|h1[0]                             ; padio            ;
+; |20210530_Clock|h1[1]                             ; |20210530_Clock|h1[1]                             ; padio            ;
+; |20210530_Clock|m0[0]                             ; |20210530_Clock|m0[0]                             ; padio            ;
+; |20210530_Clock|m0[1]                             ; |20210530_Clock|m0[1]                             ; padio            ;
+; |20210530_Clock|m0[2]                             ; |20210530_Clock|m0[2]                             ; padio            ;
+; |20210530_Clock|m0[3]                             ; |20210530_Clock|m0[3]                             ; padio            ;
+; |20210530_Clock|m1[0]                             ; |20210530_Clock|m1[0]                             ; padio            ;
+; |20210530_Clock|m1[1]                             ; |20210530_Clock|m1[1]                             ; padio            ;
+; |20210530_Clock|m1[2]                             ; |20210530_Clock|m1[2]                             ; padio            ;
+; |20210530_Clock|s0[0]                             ; |20210530_Clock|s0[0]                             ; padio            ;
+; |20210530_Clock|s0[1]                             ; |20210530_Clock|s0[1]                             ; padio            ;
+; |20210530_Clock|s0[2]                             ; |20210530_Clock|s0[2]                             ; padio            ;
+; |20210530_Clock|s0[3]                             ; |20210530_Clock|s0[3]                             ; padio            ;
+; |20210530_Clock|s1[0]                             ; |20210530_Clock|s1[0]                             ; padio            ;
+; |20210530_Clock|s1[1]                             ; |20210530_Clock|s1[1]                             ; padio            ;
+; |20210530_Clock|s1[2]                             ; |20210530_Clock|s1[2]                             ; padio            ;
+; |20210530_Clock|CLK                               ; |20210530_Clock|CLK~corein                        ; combout          ;
+; |20210530_Clock|CLK~clkctrl                       ; |20210530_Clock|CLK~clkctrl                       ; outclk           ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                 ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; Node Name                                         ; Output Port Name                                  ; Output Port Type ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|9    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|9    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~2 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~2 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~3 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~3 ; combout          ;
+; |20210530_Clock|h1[2]                             ; |20210530_Clock|h1[2]                             ; padio            ;
+; |20210530_Clock|h1[3]                             ; |20210530_Clock|h1[3]                             ; padio            ;
+; |20210530_Clock|m1[3]                             ; |20210530_Clock|m1[3]                             ; padio            ;
+; |20210530_Clock|s1[3]                             ; |20210530_Clock|s1[3]                             ; padio            ;
+; |20210530_Clock|CLR                               ; |20210530_Clock|CLR~corein                        ; combout          ;
+; |20210530_Clock|CLR~clkctrl                       ; |20210530_Clock|CLR~clkctrl                       ; outclk           ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                 ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; Node Name                                         ; Output Port Name                                  ; Output Port Type ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|8    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|8    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|9    ; |20210530_Clock|HMS_Counter:inst|74160:inst3|9    ; regout           ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~2 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~2 ; combout          ;
+; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~3 ; |20210530_Clock|HMS_Counter:inst|74160:inst3|13~3 ; combout          ;
+; |20210530_Clock|h1[2]                             ; |20210530_Clock|h1[2]                             ; padio            ;
+; |20210530_Clock|h1[3]                             ; |20210530_Clock|h1[3]                             ; padio            ;
+; |20210530_Clock|m1[3]                             ; |20210530_Clock|m1[3]                             ; padio            ;
+; |20210530_Clock|s1[3]                             ; |20210530_Clock|s1[3]                             ; padio            ;
+; |20210530_Clock|CLR                               ; |20210530_Clock|CLR~corein                        ; combout          ;
+; |20210530_Clock|CLR~clkctrl                       ; |20210530_Clock|CLR~clkctrl                       ; outclk           ;
++---------------------------------------------------+---------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Sun May 30 18:24:47 2021
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off 20210530_Clock -c 20210530_Clock
+Info: Using vector source file "C:/Users/Administrator/Desktop/20210530_Clock/HMS_Counter.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      89.13 %
+Info: Number of transitions in simulation is 68849
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 146 megabytes
+    Info: Processing ended: Sun May 30 18:24:48 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

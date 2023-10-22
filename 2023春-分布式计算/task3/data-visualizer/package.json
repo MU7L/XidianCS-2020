@@ -1,0 +1,22 @@
+{
+  "name": "data-visualizer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --open"
+  },
+  "dependencies": {
+    "echarts": "^5.4.2",
+    "net": "^1.0.2",
+    "pinia": "^2.0.34",
+    "stompjs": "^2.3.3",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0"
+  }
+}

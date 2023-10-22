@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 26.728 ns
+From           : HMS_Counter:inst21|74160:inst|7
+To             : OE
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 128.06 MHz ( period = 7.809 ns )
+From           : HMS_Counter:inst21|74160:inst4|6
+To             : HMS_Counter:inst21|74160:inst5|9
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'S0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 231.48 MHz ( period = 4.320 ns )
+From           : HMS_Counter:inst21|74160:inst4|6
+To             : HMS_Counter:inst21|74160:inst5|9
+From Clock     : S0
+To Clock       : S0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Pause'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 231.48 MHz ( period = 4.320 ns )
+From           : HMS_Counter:inst21|74160:inst4|6
+To             : HMS_Counter:inst21|74160:inst5|9
+From Clock     : Pause
+To Clock       : Pause
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : HMS_Counter:inst21|74160:inst6|7
+To             : HMS_Counter:inst21|74160:inst6|7
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 157
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 157
+
+--------------------------------------------------------------------------------------
+

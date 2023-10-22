@@ -1,0 +1,1362 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+910
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74161
+# storage
+db|20210530_Clock.(2).cnf
+db|20210530_Clock.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|20210530_Clock.(3).cnf
+db|20210530_Clock.(3).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|f74161.bdf
+408d3815988dee8ef0f04d17774959
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Clock_Module:inst19|74161:inst|f74161:sub
+Clock_Module:inst19|74161:inst35|f74161:sub
+Clock_Module:inst19|74161:inst36|f74161:sub
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(4).cnf
+db|20210530_Clock.(4).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+Clock_Module:inst19|74161:inst36
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(5).cnf
+db|20210530_Clock.(5).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(6).cnf
+db|20210530_Clock.(6).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+Clock_Module:inst19|74161:inst
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(7).cnf
+db|20210530_Clock.(7).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+Clock_Module:inst19|74161:inst35
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(8).cnf
+db|20210530_Clock.(8).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(9).cnf
+db|20210530_Clock.(9).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(10).cnf
+db|20210530_Clock.(10).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(11).cnf
+db|20210530_Clock.(11).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(12).cnf
+db|20210530_Clock.(12).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(13).cnf
+db|20210530_Clock.(13).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+1
+ENP
+-1
+1
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(14).cnf
+db|20210530_Clock.(14).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(15).cnf
+db|20210530_Clock.(15).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(16).cnf
+db|20210530_Clock.(16).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(17).cnf
+db|20210530_Clock.(17).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+CLRN
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|20210530_Clock.(18).cnf
+db|20210530_Clock.(18).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+CLRN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74160
+# storage
+db|20210530_Clock.(20).cnf
+db|20210530_Clock.(20).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74160.bdf
+1681ffda9592cd855e8df2e199631d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DISP:inst22|74160:inst
+HMS_Counter:inst21|74160:inst5
+HMS_Counter:inst21|74160:inst6
+HMS_Counter:inst21|74160:inst2
+HMS_Counter:inst21|74160:inst
+HMS_Counter:inst21|74160:inst4
+HMS_Counter:inst21|74160:inst3
+}
+# macro_sequence
+
+# end
+# entity
+HMS_Counter
+# storage
+db|20210530_Clock.(19).cnf
+db|20210530_Clock.(19).cnf
+# case_insensitive
+# source_file
+HMS_Counter.bdf
+b29551dfef5e1d9dadab75fa1251b6d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+HMS_Counter:inst21
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|20210530_Clock.(22).cnf
+db|20210530_Clock.(22).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DISP:inst22|74138:inst1
+}
+# macro_sequence
+
+# end
+# entity
+7447
+# storage
+db|20210530_Clock.(23).cnf
+db|20210530_Clock.(23).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|7447.bdf
+b866247e9e4e23608138281b57c7e83
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DISP:inst22|7447:inst9
+}
+# macro_sequence
+
+# end
+# entity
+74151
+# storage
+db|20210530_Clock.(24).cnf
+db|20210530_Clock.(24).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74151.tdf
+8e23777b7e77bbea2991510888c2e
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+Y
+-1
+3
+D5
+-1
+3
+D4
+-1
+3
+D3
+-1
+3
+D2
+-1
+3
+D1
+-1
+3
+D0
+-1
+3
+C
+-1
+3
+B
+-1
+3
+A
+-1
+3
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+DISP:inst22|74151:inst5
+DISP:inst22|74151:inst6
+DISP:inst22|74151:inst8
+DISP:inst22|74151:inst4
+}
+# macro_sequence
+
+# end
+# entity
+f74151
+# storage
+db|20210530_Clock.(25).cnf
+db|20210530_Clock.(25).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|f74151.bdf
+c65e61b9657937aab8a5c1a38aae44
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DISP:inst22|74151:inst5|f74151:sub
+DISP:inst22|74151:inst6|f74151:sub
+DISP:inst22|74151:inst8|f74151:sub
+DISP:inst22|74151:inst4|f74151:sub
+}
+# macro_sequence
+
+# end
+# entity
+74151
+# storage
+db|20210530_Clock.(26).cnf
+db|20210530_Clock.(26).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|74151.tdf
+8e23777b7e77bbea2991510888c2e
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# include_file {
+..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+Clock_Module
+# storage
+db|20210530_Clock.(1).cnf
+db|20210530_Clock.(1).cnf
+# case_insensitive
+# source_file
+Clock_Module.bdf
+f8c6627aba1dea65a8a1737c913a1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Clock_Module:inst19
+}
+# macro_sequence
+
+# end
+# entity
+21mux
+# storage
+db|20210530_Clock.(27).cnf
+db|20210530_Clock.(27).cnf
+# case_insensitive
+# source_file
+..|..|..|..|altera|90|quartus|libraries|others|maxplus2|21mux.bdf
+58999bd3808c6118fcb8193d74b5b94f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+21mux:inst
+}
+# macro_sequence
+
+# end
+# entity
+20210530_Clock
+# storage
+db|20210530_Clock.(0).cnf
+db|20210530_Clock.(0).cnf
+# case_insensitive
+# source_file
+20210530_Clock.bdf
+fe2e27bf2d4cda33d03eb08807f24c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+DISP
+# storage
+db|20210530_Clock.(21).cnf
+db|20210530_Clock.(21).cnf
+# case_insensitive
+# source_file
+DISP.bdf
+b12039dfffa251345a22cfb76ebcddff
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DISP:inst22
+}
+# macro_sequence
+
+# end
+# complete
+

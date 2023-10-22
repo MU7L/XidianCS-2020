@@ -1,0 +1,298 @@
+<kpt_db name="lab4.map_bb" kpt_version="1.1">
+  <key_points_set type="reference" hier_sep="/">
+    <key_point id="1" type="register">
+      <name>inst2/lpm_ff_component/dffs[5]</name>
+    </key_point>
+    <key_point id="2" type="register">
+      <name>inst2/lpm_ff_component/dffs[1]</name>
+    </key_point>
+    <key_point id="3" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[5]</name>
+    </key_point>
+    <key_point id="4" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[6]</name>
+    </key_point>
+    <key_point id="5" type="register">
+      <name>inst2/lpm_ff_component/dffs[3]</name>
+    </key_point>
+    <key_point id="6" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[0]</name>
+    </key_point>
+    <key_point id="7" type="register">
+      <name>inst2/lpm_ff_component/dffs[2]</name>
+    </key_point>
+    <key_point id="8" type="register">
+      <name>inst2/lpm_ff_component/dffs[0]</name>
+    </key_point>
+    <key_point id="9" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[2]</name>
+    </key_point>
+    <key_point id="10" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[4]</name>
+    </key_point>
+    <key_point id="11" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[7]</name>
+    </key_point>
+    <key_point id="12" type="register">
+      <name>inst2/lpm_ff_component/dffs[6]</name>
+    </key_point>
+    <key_point id="13" type="register">
+      <name>inst2/lpm_ff_component/dffs[7]</name>
+    </key_point>
+    <key_point id="14" type="register">
+      <name>inst2/lpm_ff_component/dffs[4]</name>
+    </key_point>
+    <key_point id="15" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[1]</name>
+    </key_point>
+    <key_point id="16" type="register">
+      <name>inst/lpm_counter_component/auto_generated/counter_reg_bit[3]</name>
+    </key_point>
+  </key_points_set>
+  <key_points_set type="transition" hier_sep="|">
+  </key_points_set>
+  <key_points_set type="transformed" hier_sep="|">
+    <key_point id="17" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[4]</name>
+    </key_point>
+    <key_point id="18" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[6]</name>
+    </key_point>
+    <key_point id="19" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[0]</name>
+    </key_point>
+    <key_point id="20" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[4]</name>
+    </key_point>
+    <key_point id="21" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[6]</name>
+    </key_point>
+    <key_point id="22" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[2]</name>
+    </key_point>
+    <key_point id="23" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[0]</name>
+    </key_point>
+    <key_point id="24" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[2]</name>
+    </key_point>
+    <key_point id="25" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[3]</name>
+    </key_point>
+    <key_point id="26" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[5]</name>
+    </key_point>
+    <key_point id="27" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[5]</name>
+    </key_point>
+    <key_point id="28" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[1]</name>
+    </key_point>
+    <key_point id="29" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[7]</name>
+    </key_point>
+    <key_point id="30" type="register">
+      <name>lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[3]</name>
+    </key_point>
+    <key_point id="31" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[7]</name>
+    </key_point>
+    <key_point id="32" type="register">
+      <name>lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_25j:auto_generated|counter_reg_bit[1]</name>
+    </key_point>
+  </key_points_set>
+  <transformations_set hier_sep="|">
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="12" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="21" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="4" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="18" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="11" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="31" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="13" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="29" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="7" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="22" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="10" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="17" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="8" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="19" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="2" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="28" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="14" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="20" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="15" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="32" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="9" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="24" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="5" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="30" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="16" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="25" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="3" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="26" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="6" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="23" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="1" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="27" type="proxy"></kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+  </transformations_set>
+</kpt_db>

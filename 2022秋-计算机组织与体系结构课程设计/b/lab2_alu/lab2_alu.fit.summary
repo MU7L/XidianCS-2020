@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 18 20:13:03 2022
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : lab2_alu
+Top-level Entity Name : lab2_alu
+Family : Cyclone III
+Device : EP3C40Q240C8
+Timing Models : Final
+Total logic elements : 375 / 39,600 ( < 1 % )
+    Total combinational functions : 375 / 39,600 ( < 1 % )
+    Dedicated logic registers : 4 / 39,600 ( < 1 % )
+Total registers : 4
+Total pins : 41 / 129 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,161,216 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 252 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

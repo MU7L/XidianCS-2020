@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div>(<span id="x0">0</span>,<span id="y0">0</span>) -> (<span id="x1">0</span>,<span id="y1">0</span>)</div>
+        <div>(<span id="dx">0</span>,<span id="dy">0</span>)</div>
+    </div>
+
+    <script>
+        const x0 = document.querySelector("#x0");
+        const y0 = document.querySelector("#y0");
+        const x1 = document.querySelector("#x1");
+        const y1 = document.querySelector("#y1");
+        const dx = document.querySelector("#dx");
+        const dy = document.querySelector("#dy");
+
+        document.addEventListener("touchstart", e => {
+            e.preventDefault();
+            // console.log(e.touches[0]);
+            x0.textContent = e.touches[0].pageX;
+            y0.textContent = e.touches[0].pageY;
+        }, { passive: false });
+
+        document.addEventListener("touchmove", e => {
+            e.preventDefault();
+            // console.log(e.touches[0]);
+            x1.textContent = e.touches[0].pageX;
+            y1.textContent = e.touches[0].pageY;
+            dx.textContent = x1.textContent - x0.textContent;
+            dy.textContent = y1.textContent - y0.textContent;
+            let data = {
+                dx: Number(dx.textContent),
+                dy: Number(dy.textContent),
+                op: 'move'
+            }
+            console.log(data);
+            fetch('http://10.198.229.235:3001/api', {
+                method: 'post',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+        }, { passive: false });
+
+        document.addEventListener("touchend", e => {
+            e.preventDefault();
+            // console.log(e);
+            // if (e.touches.length === 0) {
+            //     fetch('http://10.198.229.235:3001/api', {
+            //         method: 'post',
+            //         body: JSON.stringify({
+            //             dx: 0,
+            //             dy: 0,
+            //             op: 'click'
+            //         }),
+            //         headers: {
+            //             'Content-Type': 'application/json'
+            //         }
+            //     });
+            // }
+        }, { passive: false });
+    </script>
+</body>
+
+</html>

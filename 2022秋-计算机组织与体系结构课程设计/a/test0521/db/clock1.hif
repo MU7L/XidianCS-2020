@@ -1,0 +1,795 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+910
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74160
+# storage
+db|clock1.(1).cnf
+db|clock1.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74160.bdf
+1681ffda9592cd855e8df2e199631d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+cnt:inst10|74160:inst1
+cnt:inst10|74160:inst3
+cnt:inst10|74160:inst4
+cnt:inst10|74160:inst5
+cnt:inst10|74160:inst2
+cnt:inst10|74160:inst
+}
+# macro_sequence
+
+# end
+# entity
+7447
+# storage
+db|clock1.(3).cnf
+db|clock1.(3).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|7447.bdf
+b866247e9e4e23608138281b57c7e83
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sm:inst8|7447:inst4
+}
+# macro_sequence
+
+# end
+# entity
+74151
+# storage
+db|clock1.(4).cnf
+db|clock1.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74151.tdf
+8e23777b7e77bbea2991510888c2e
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+Y
+-1
+3
+D5
+-1
+3
+D4
+-1
+3
+D3
+-1
+3
+D2
+-1
+3
+D1
+-1
+3
+D0
+-1
+3
+C
+-1
+3
+B
+-1
+3
+A
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+sm:inst8|74151:inst1
+sm:inst8|74151:inst2
+sm:inst8|74151:inst3
+sm:inst8|74151:inst
+}
+# macro_sequence
+
+# end
+# entity
+f74151
+# storage
+db|clock1.(5).cnf
+db|clock1.(5).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|f74151.bdf
+c65e61b9657937aab8a5c1a38aae44
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sm:inst8|74151:inst1|f74151:sub
+sm:inst8|74151:inst2|f74151:sub
+sm:inst8|74151:inst3|f74151:sub
+sm:inst8|74151:inst|f74151:sub
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(6).cnf
+db|clock1.(6).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+sm:inst8|74161:inst6
+}
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|clock1.(7).cnf
+db|clock1.(7).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|f74161.bdf
+408d3815988dee8ef0f04d17774959
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sm:inst8|74161:inst6|f74161:sub
+fraq:inst11|74161:inst|f74161:sub
+fraq:inst11|74161:inst6|f74161:sub
+fraq:inst11|74161:inst7|f74161:sub
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|clock1.(8).cnf
+db|clock1.(8).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sm:inst8|74138:inst9
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(10).cnf
+db|clock1.(10).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(11).cnf
+db|clock1.(11).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(12).cnf
+db|clock1.(12).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+CLK
+-1
+3
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(13).cnf
+db|clock1.(13).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLK
+-1
+3
+ENT
+-1
+2
+ENP
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(14).cnf
+db|clock1.(14).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLK
+-1
+3
+CLRN
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(15).cnf
+db|clock1.(15).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+CLK
+-1
+3
+CLRN
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(16).cnf
+db|clock1.(16).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QD
+-1
+3
+CLK
+-1
+3
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# hierarchies {
+fraq:inst11|74161:inst
+fraq:inst11|74161:inst6
+fraq:inst11|74161:inst7
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|clock1.(17).cnf
+db|clock1.(17).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|74161.tdf
+8ae87de328fa01839f5a524a1a9ba
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+CLK
+-1
+3
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# include_file {
+c:|altera|90|quartus|libraries|megafunctions|aglobal.inc
+99832fdf63412df51d7531202d74e75
+}
+# macro_sequence
+
+# end
+# entity
+sm
+# storage
+db|clock1.(18).cnf
+db|clock1.(18).cnf
+# case_insensitive
+# source_file
+sm.bdf
+9d6ef5fb4e8037d9fda6d8213e8d57f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sm:inst8
+}
+# macro_sequence
+
+# end
+# entity
+21mux
+# storage
+db|clock1.(19).cnf
+db|clock1.(19).cnf
+# case_insensitive
+# source_file
+c:|altera|90|quartus|libraries|others|maxplus2|21mux.bdf
+58999bd3808c6118fcb8193d74b5b94f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+21mux:inst9
+}
+# macro_sequence
+
+# end
+# entity
+cnt
+# storage
+db|clock1.(0).cnf
+db|clock1.(0).cnf
+# case_insensitive
+# source_file
+cnt.bdf
+4e64cae9d3c58ce1e79c6772f5df150
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+cnt:inst10
+}
+# macro_sequence
+
+# end
+# entity
+fraq
+# storage
+db|clock1.(2).cnf
+db|clock1.(2).cnf
+# case_insensitive
+# source_file
+fraq.bdf
+9816af974ce4888fef6a7316b44529c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+fraq:inst11
+}
+# macro_sequence
+
+# end
+# entity
+clock1
+# storage
+db|clock1.(9).cnf
+db|clock1.(9).cnf
+# case_insensitive
+# source_file
+clock1.bdf
+66cb4566c5880ac5ac1d3532862bd76
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

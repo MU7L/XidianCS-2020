@@ -1,0 +1,3 @@
+net stop winnat
+docker ...
+net start winnat

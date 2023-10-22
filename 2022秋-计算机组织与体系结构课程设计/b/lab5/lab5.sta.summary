@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ADDR'
+Slack : -3.247
+TNS   : -24.503
+
+Type  : Slow 1200mV 85C Model Setup 'LED'
+Slack : -3.210
+TNS   : -24.351
+
+Type  : Slow 1200mV 85C Model Setup 'REG'
+Slack : -3.129
+TNS   : -24.036
+
+Type  : Slow 1200mV 85C Model Setup 'CP'
+Slack : -2.767
+TNS   : -24.955
+
+Type  : Slow 1200mV 85C Model Hold 'LED'
+Slack : 0.865
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'REG'
+Slack : 0.920
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CP'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ADDR'
+Slack : 0.976
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ADDR'
+Slack : -3.005
+TNS   : -22.619
+
+Type  : Slow 1200mV 0C Model Setup 'LED'
+Slack : -3.001
+TNS   : -22.592
+
+Type  : Slow 1200mV 0C Model Setup 'REG'
+Slack : -2.933
+TNS   : -22.255
+
+Type  : Slow 1200mV 0C Model Setup 'CP'
+Slack : -2.676
+TNS   : -22.139
+
+Type  : Slow 1200mV 0C Model Hold 'LED'
+Slack : 0.789
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'REG'
+Slack : 0.835
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ADDR'
+Slack : 0.886
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CP'
+Slack : 0.915
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CP'
+Slack : -1.278
+TNS   : -4.557
+
+Type  : Fast 1200mV 0C Model Setup 'ADDR'
+Slack : -0.794
+TNS   : -5.496
+
+Type  : Fast 1200mV 0C Model Setup 'LED'
+Slack : -0.793
+TNS   : -5.382
+
+Type  : Fast 1200mV 0C Model Setup 'REG'
+Slack : -0.745
+TNS   : -5.230
+
+Type  : Fast 1200mV 0C Model Hold 'LED'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'REG'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ADDR'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CP'
+Slack : 0.514
+TNS   : 0.000
+
+------------------------------------------------------------

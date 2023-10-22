@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May 16 20:31:18 2022
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : lab1_rom
+Top-level Entity Name : lab1_rom
+Family : Cyclone III
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 512
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

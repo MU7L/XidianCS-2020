@@ -1,0 +1,14 @@
+启动
+docker-compose up -d
+ssh -p 2222 root@localhost
+123456
+start-dfs.sh
+
+hdfs:
+http://localhost:9870/
+hadoop fs -mkdir /input
+
+关闭
+stop-dfs.sh
+logout
+docker-compose down

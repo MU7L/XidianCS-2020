@@ -1,0 +1,191 @@
+Simulator report for lab1_rom
+Mon May 16 20:49:12 2022
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 23 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 668          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++---------------------------------------------------------------------------------------------------+
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 23           ;
+; Total output ports checked                          ; 23           ;
+; Total output ports with complete 1/0-value coverage ; 23           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                            ;
++-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                           ; Output Port Name                                                                              ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; |lab1_rom|q[7]                                                                                      ; |lab1_rom|q[7]                                                                                ; pin_out          ;
+; |lab1_rom|q[6]                                                                                      ; |lab1_rom|q[6]                                                                                ; pin_out          ;
+; |lab1_rom|q[5]                                                                                      ; |lab1_rom|q[5]                                                                                ; pin_out          ;
+; |lab1_rom|q[4]                                                                                      ; |lab1_rom|q[4]                                                                                ; pin_out          ;
+; |lab1_rom|q[3]                                                                                      ; |lab1_rom|q[3]                                                                                ; pin_out          ;
+; |lab1_rom|q[2]                                                                                      ; |lab1_rom|q[2]                                                                                ; pin_out          ;
+; |lab1_rom|q[1]                                                                                      ; |lab1_rom|q[1]                                                                                ; pin_out          ;
+; |lab1_rom|q[0]                                                                                      ; |lab1_rom|q[0]                                                                                ; pin_out          ;
+; |lab1_rom|clk                                                                                       ; |lab1_rom|clk                                                                                 ; out              ;
+; |lab1_rom|a[5]                                                                                      ; |lab1_rom|a[5]                                                                                ; out              ;
+; |lab1_rom|a[4]                                                                                      ; |lab1_rom|a[4]                                                                                ; out              ;
+; |lab1_rom|a[3]                                                                                      ; |lab1_rom|a[3]                                                                                ; out              ;
+; |lab1_rom|a[2]                                                                                      ; |lab1_rom|a[2]                                                                                ; out              ;
+; |lab1_rom|a[1]                                                                                      ; |lab1_rom|a[1]                                                                                ; out              ;
+; |lab1_rom|a[0]                                                                                      ; |lab1_rom|a[0]                                                                                ; out              ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a0 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[0] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a1 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[1] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a2 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[2] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a3 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[3] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a4 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[4] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a5 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[5] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a6 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[6] ; portadataout0    ;
+; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|ram_block1a7 ; |lab1_rom|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_40a1:auto_generated|q_a[7] ; portadataout0    ;
++-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Mon May 16 20:49:12 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off lab1_rom -c lab1_rom
+Info: Using vector source file "D:/code/Quartus/b/lab1_rom/lab1_rom.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is     100.00 %
+Info: Number of transitions in simulation is 668
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 159 megabytes
+    Info: Processing ended: Mon May 16 20:49:12 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

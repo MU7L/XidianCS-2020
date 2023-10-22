@@ -1,0 +1,18 @@
+|test04231
+Y0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst10.IN0
+Din => inst11.IN0
+Din => inst12.IN0
+Din => inst13.IN0
+En => inst9.IN0
+A0 => inst2.IN0
+A0 => inst11.IN2
+A0 => inst13.IN2
+A1 => inst.IN0
+A1 => inst12.IN3
+A1 => inst13.IN3
+Y1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jun 08 20:27:47 2022
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : lab5
+Top-level Entity Name : lab5
+Family : Cyclone III
+Device : EP3C40Q240C8
+Timing Models : Final
+Total logic elements : 40 / 39,600 ( < 1 % )
+    Total combinational functions : 40 / 39,600 ( < 1 % )
+    Dedicated logic registers : 0 / 39,600 ( 0 % )
+Total registers : 0
+Total pins : 55 / 129 ( 43 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 1,161,216 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 252 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

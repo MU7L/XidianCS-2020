@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab5|lpm_mux0:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_j6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab5|lpm_ram_dq0:SRAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9df1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

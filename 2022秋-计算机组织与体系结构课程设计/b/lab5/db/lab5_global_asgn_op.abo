@@ -1,0 +1,4025 @@
+Version:
+	9.0 Build 132 02/25/2009 SJ Full Version
+
+Chip Device Options:
+	Device Name:	EP3C40Q240C8
+	Device JTAG code:	ffffffff
+	Programming_mode:	Active Serial Configuration
+	NWS_NRS_NCS:	UNRESERVED
+	RDYNBUSY:	UNRESERVED
+	DATA 7 to 1:	UNRESERVED
+	nCEO:	RESERVED_GND
+	UNUSED PINS:	RESERVED_WEAK_PULL_UP
+	Default IO Standard::	2.5 V
+	User Start-up Clock:	0
+	Auto Restart on Error:	1
+	Release Clears Before Tristates:	0
+	Device Clear:	0
+	Test And Scan:	0
+	Device OE:	0
+	Enable Lock Output:	0
+	Enable Init Done:	0
+	Enable JTAG BST:	0
+	Enable Vref A:	0
+	Enable Vref B:	0
+
+
+
+****************************
+******Individual Atoms******
+****************************
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 0
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[7]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a7~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 7
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 1
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[6]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a6~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 6
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 2
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[5]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a5~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 5
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 3
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[4]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a4~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 4
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 4
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[3]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a3~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 3
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 5
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[2]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a2~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 2
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 6
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[1]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a1~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 1
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0 -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 7
+	Atom Type: cycloneiii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: [PORTAWE]	  WE~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [PORTARE]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: [CLK0]	  CP~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+		13: NO ITERM
+		14: [PORTADATAIN]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		15: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		16: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		17: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		18: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		19: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		20: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		21: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		22: [PORTAADDR]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[0]	LIT INDEX 0 FANOUTS 2 REGED POS
+		1: [OBSERVABLEPORTAWEREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_we_reg	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTADATAINREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAMEMORYREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		11: [OBSERVABLEPORTAADDRESSREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+		12: [OBSERVABLEPORTAREREGOUT]	lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ram_block1a0~porta_re_reg	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = single_port
+		ram_block_type                 = auto
+		logical_ram_name               = lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|ALTSYNCRAM
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_address_clear           = none
+		port_a_data_out_clock          = clock0
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 0
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		port_a_read_during_write_mode  = new_data_with_nbe_read
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~16 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 50
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~16	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 52
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~16	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[7]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~18 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 53
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~18	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 55
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~18	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[6]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~20 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 56
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~20	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 58
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~20	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[5]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~22 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 59
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~22	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 61
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~22	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[4]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~24 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 62
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~24	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 64
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~24	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[3]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~26 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 65
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~26	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 67
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~26	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[2]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~28 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 68
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~28	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 70
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~28	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~30 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 71
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAB]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  s[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~30	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = e5e0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 73
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	  s[1]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~30	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  d[0]~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0 FANOUTS 5
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = f838
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 79
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 80
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 81
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 82
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 83
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 84
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 85
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 86
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  ADDR~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0 FANOUTS 11
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 87
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 88
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 89
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 90
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 91
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 92
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 93
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 94
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  REG~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0 FANOUTS 3
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 95
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 96
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 97
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 98
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 99
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 100
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 101
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 102
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: [DATAB]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	  LED~input	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+
+	PARAMETER LIST:
+		sum_lutc_input                 = datac
+		lut_mask                       = ccf0
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[7]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 105
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[7]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 106
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[7]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[7]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[6]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 107
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[6]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 108
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[6]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[6]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[5]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 109
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[5]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 110
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[5]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[5]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[4]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 111
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[4]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 112
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[4]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[4]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[3]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 113
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[3]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 114
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[3]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[3]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[2]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 115
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[2]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 116
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[2]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[2]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[1]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 117
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[1]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 118
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[1]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[1]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[0]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 119
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:AR|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	AR_out[0]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: AR_out[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 120
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  AR_out[0]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	AR_out[0]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[7]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 121
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[7]~17	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[7]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 122
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[7]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[7]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[6]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 123
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[6]~19	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[6]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 124
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[6]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[6]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[5]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 125
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[5]~21	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[5]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 126
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[5]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[5]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[4]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 127
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[4]~23	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[4]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 128
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[4]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[4]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[3]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 129
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[3]~25	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[3]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 130
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[3]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[3]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[2]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 131
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[2]~27	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[2]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 132
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[2]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[2]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[1]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 133
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[1]~29	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[1]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 134
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[1]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[1]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[0]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 135
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_mux0:inst|lpm_mux:lpm_mux_component|mux_j6e:auto_generated|result_node[0]~31	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	bus_res[0]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: bus_res[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 136
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  bus_res[0]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	bus_res[0]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[7]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 137
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[7]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 138
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[7]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[7]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[6]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 139
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[6]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 140
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[6]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[6]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[5]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 141
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[5]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 142
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[5]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[5]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[4]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 143
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[4]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 144
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[4]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[4]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[3]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 145
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[3]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 146
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[3]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[3]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[2]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 147
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[2]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 148
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[2]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[2]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[1]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 149
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[1]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 150
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[1]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[1]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[0]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 151
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_ram_dq0:SRAM|altsyncram:altsyncram_component|altsyncram_9df1:auto_generated|q_a[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	SRAM_out[0]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: SRAM_out[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 152
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  SRAM_out[0]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	SRAM_out[0]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[7]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 153
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[7]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 154
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[7]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[7]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[6]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 155
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[6]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 156
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[6]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[6]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[5]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 157
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[5]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 158
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[5]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[5]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[4]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 159
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[4]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 160
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[4]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[4]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[3]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 161
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[3]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 162
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[3]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[3]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[2]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 163
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[2]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 164
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[2]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[2]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[1]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 165
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[1]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 166
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[1]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[1]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[0]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 167
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:R0|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	R0_out[0]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: R0_out[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 168
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  R0_out[0]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	R0_out[0]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[7]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 169
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[7]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 170
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[7]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[7]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[6]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 171
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[6]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 172
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[6]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[6]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[5]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 173
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[5]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 174
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[5]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[5]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[4]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 175
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[4]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 176
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[4]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[4]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[3]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 177
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[3]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 178
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[3]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[3]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[2]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 179
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[2]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 180
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[2]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[2]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[1]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 181
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[1]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 182
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[1]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[1]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: out[0]~output -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 183
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  lpm_latch0:LED_DISP|lpm_latch:lpm_latch_component|latches[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	out[0]~output	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: out[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 184
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  out[0]~output	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	out[0]	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: s[0]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 185
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  s[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	s[0]~input	LIT INDEX 0 FANOUTS 12
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: s[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 186
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	s[0]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: s[1]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 187
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  s[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	s[1]~input	LIT INDEX 0 FANOUTS 12
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: s[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 188
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	s[1]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[7]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 189
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[7]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 190
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[7]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[6]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 191
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[6]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 192
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[6]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[5]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 193
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[5]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 194
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[5]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[4]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 195
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[4]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 196
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[4]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[3]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 197
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[3]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 198
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[3]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[2]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 199
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[2]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 200
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[2]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[1]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 201
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[1]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 202
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[1]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: d[0]~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 203
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  d[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	d[0]~input	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: d[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 204
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	d[0]	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: ADDR~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 205
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  ADDR	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	ADDR~input	LIT INDEX 0 FANOUTS 8
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: ADDR -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 206
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	ADDR	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: WE~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 207
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  WE	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	WE~input	LIT INDEX 0 FANOUTS 8
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: WE -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 208
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	WE	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: CP~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 209
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  CP	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	CP~input	LIT INDEX 0 FANOUTS 8
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: CP -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 210
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	CP	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: REG~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 211
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  REG	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	REG~input	LIT INDEX 0 FANOUTS 8
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: REG -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 212
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	REG	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: LED~input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 213
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  LED	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	LED~input	LIT INDEX 0 FANOUTS 8
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: LED -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 214
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	LED	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		ON
+
+- ATOM ------------------------
+	ATOM_NAME: ~QUARTUS_CREATED_GND~I -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 215
+	Atom Type: cycloneiii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~QUARTUS_CREATED_GND~I	LIT INDEX 0 FANOUTS 0
+		1: NONE
+
+	PARAMETER LIST:
+		(Skipping parameters for lcell or lcell comb with no fanout)
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_ASDO_DATA1~~ibuf -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 217
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  ~ALTERA_ASDO_DATA1~	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	~ALTERA_ASDO_DATA1~~ibuf	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_ASDO_DATA1~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 216
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	~ALTERA_ASDO_DATA1~	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_FLASH_nCE_nCSO~~ibuf -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 219
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  ~ALTERA_FLASH_nCE_nCSO~	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	~ALTERA_FLASH_nCE_nCSO~~ibuf	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_FLASH_nCE_nCSO~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 218
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	~ALTERA_FLASH_nCE_nCSO~	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_DCLK~~obuf -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 221
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	~ALTERA_DCLK~~obuf	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = false
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_DCLK~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 220
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  ~ALTERA_DCLK~~obuf	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	~ALTERA_DCLK~	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_DATA0~~ibuf -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 223
+	Atom Type: cycloneiii_io_ibuf
+
+	INPUTS (Driven By):
+		0: [I]	  ~ALTERA_DATA0~	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	~ALTERA_DATA0~~ibuf	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		bus_hold                       = false
+		simulate_z_as                  = z
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_DATA0~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 222
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	~ALTERA_DATA0~	LIT INDEX 0 FANOUTS 1
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_nCEO~~obuf -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 225
+	Atom Type: cycloneiii_io_obuf
+
+	INPUTS (Driven By):
+		0: [I]	  VCC	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [O]	~ALTERA_nCEO~~obuf	LIT INDEX 0 FANOUTS 1
+		1: NONE
+
+	PARAMETER LIST:
+		open_drain_output              = true
+		bus_hold                       = false
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ALTERA_nCEO~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 224
+	Atom Type: cycloneiii_io_pad
+
+	INPUTS (Driven By):
+		0: [PADIN]	  ~ALTERA_nCEO~~obuf	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [PADOUT]	~ALTERA_nCEO~	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		EMPTY!!
+
+	DELAY CHAINS:
+		Input Pin to Logic Array Delay 0:	0
+		Input Pin to Logic Array Delay 1:	0
+		Output Pin Delay:	0
+		Output Enable Register Tco Delay:	0
+		Input Pin to Input Register Delay:	0
+		PCI Clock Delay Chain:	0
+
+	IO STANDARD:			2.5 V
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+
